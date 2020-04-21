@@ -1,0 +1,35 @@
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+.container{
+    background-color: #fff;
+    color: #333;
+    display:grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr 1fr;
+    height: 100vh;
+    
+
+}
+
+.containerDark{
+  display:grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 1fr 5fr 1fr 1fr;
+  height: 100vh;
+  background-color: #1a1919;
+  color: #999;
+  
+}
+
+.childrenContainer{
+  grid-column: 2/3;
+  grid-row: 2/ 4;
+  /* border: 1px solid black; */
+}
