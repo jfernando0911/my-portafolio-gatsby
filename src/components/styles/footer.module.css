@@ -1,5 +1,5 @@
 .container{
-    border-top: 1px solid hsla(0,0%,0%,0.17);;
+    border-top: 1px solid hsla(0,0%,0%,0.17);
     grid-column: 2/3;
     grid-row: 4;
     display: flex;
@@ -22,17 +22,19 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     flex-basis: 40%;
+    list-style: none;
 }
 
 .footerCreatedContainer{
     /* border: 1px solid black; */
     display: flex;
     flex-basis: 40%;
-    border:1px solid black;
+    /* border:1px solid black; */
     justify-content: space-around;
     align-items: center;
+    list-style: none;
 }
 
 .footerCreatedContainer li{
