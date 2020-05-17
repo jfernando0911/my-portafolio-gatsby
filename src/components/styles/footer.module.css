@@ -45,3 +45,14 @@
     width: 25px;
     /* height: 20px */
 }
+
+@media only screen and (max-width: 600px) {
+    .footerCreatedContainer{
+        display: none;
+    }
+    .footerLinksContainer li:nth-child(2){
+        display: none;
+         
+    }
+
+  }

@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className={navbar.logoContainer}><img src={mouse} alt={"emoji of a mouse"} /><h3>JFernando</h3></div>
             <ul className={navbar.ulContainer}>
                 <div className={navbar.linkContainer}>
-                    <Link to="/projects" className={navbar.linkLight}>Work</Link>
+                    <Link to="/projects" className={navbar.linkLight}>Projects</Link>
                 </div>
                 <div className={navbar.linkContainer}>
                     <Link to="/contact" className={navbar.linkLight}>Contact</Link>
