@@ -12,6 +12,7 @@ const Footer = () => (
                 <li>jfernando0911@gmail.com</li>
             </ul>
             <ul className={styles.footerCreatedContainer}>
+                <p>Created with</p>
                 <li><img src={ReactLogo} alt="react logo"/></li>
                 <li><img src={GatsbyLogo} alt="gatsby logo"/></li>
 
