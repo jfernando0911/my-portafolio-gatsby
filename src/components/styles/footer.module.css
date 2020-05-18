@@ -22,16 +22,17 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* border: 1px solid black; */
     flex-basis: 40%;
     list-style: none;
+    color: #999;
+    font-weight: 600;
 }
 
 .footerCreatedContainer{
-    /* border: 1px solid black; */
+    color: #999;
+    font-weight: 600;
     display: flex;
     flex-basis: 40%;
-    /* border:1px solid black; */
     justify-content: space-around;
     align-items: center;
     list-style: none;
@@ -47,6 +48,16 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .footerCreatedContainer{
+        display: none;
+    }
+    .footerLinksContainer li:nth-child(2){
+        display: none;
+         
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
     .footerCreatedContainer{
         display: none;
     }
